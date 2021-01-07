@@ -1,0 +1,58 @@
+
+            h1 {
+                color: brown;
+                margin-left:30px;
+            }
+
+            * {
+                
+                text-align:center;
+            }
+
+            .header {
+                display:flex;
+                justify-content: space-between;
+                background-color: aliceblue;
+                border:solid
+            }
+            .grid{
+                display:flex;
+                flex-wrap:wrap;
+                justify-content: space-between;
+               
+            }
+            body{
+             background-color:#777674  
+            }
+
+            a:link{
+                color:black
+            }
+
+            a:visited{
+                color:blue
+            }
+            
+            .menu {
+                margin-right:30px ;
+            }
+
+            .item p{
+                position: absolute ;
+                top:50%;left:50%;
+                transform:translate(-50%,-50%);
+                opacity:0
+            }
+
+            .item {
+                position: relative ;
+            }
+
+           .item:hover p  {
+            opacity:1
+            }
+
+            .item:hover img {
+                opacity:0.33
+                }
+            
